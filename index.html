@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .colums {
+        display: flex;
+        width: 1400px;
+        height: 700px;
+        align-items: end;
+    }
+
+    .col {
+        width: 1px;
+        background-color: rgb(187, 187, 187);
+        /* border: 1px solid red; */
+        margin-right: 1px;
+    }
+
+    .count {
+        position: absolute;
+        left: 10px;
+        top: 10px
+    }
+</style>
+
+<body>
+    <div class="count"></div>
+    <div id="colums" class="colums">
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
